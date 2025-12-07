@@ -45,31 +45,8 @@
     <div class="terminal-suggestions" id="suggestions"></div>
 </div>
 
+<script src="../js/version-check.js"></script>
 <script src="../js/full-terminal.js"></script>
-<script src="../js/shiptime.js"></script>
-
-</body>
-</html>
-    const input = document.getElementById('terminalInput');
-    const output = document.getElementById('terminalOutput');
-    
-    if (input && output) {
-        // Force focus on the input
-        input.focus();
-        
-        // Add click handler to focus input when clicking anywhere on terminal
-        document.querySelector('.full-terminal-container').addEventListener('click', function() {
-            input.focus();
-        });
-        
-        console.log('Terminal elements found and focused');
-    } else {
-        console.error('Terminal elements not found:', { input, output });
-    }
-});
-</script>
-
-<script src="../js/terminal.js"></script>
 <script src="../js/shiptime.js"></script>
 
 </body>
